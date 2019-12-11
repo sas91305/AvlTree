@@ -43,3 +43,20 @@ int main() {
 	cin >> c;
 	return 0;
 }
+
+/*
+Other AVL Tree code:
+
+Builds a small AVL tree, displaying the keys in sorted order after each
+insertion. This serves as a test program for the AvlTree implementation.
+
+int main() {
+	AvlTree tree;
+	int a[] = { 0, 9, 1, 8, 2, 7, 3, 6, 4, 5 };
+	for (int i = 0; i < 10; i++) {
+		tree.insert(a[i]);
+		tree.inorder_print();
+		cout << endl;
+	}
+	return 0;
+}*/
